@@ -1,38 +1,48 @@
-Basic RAG Model Project
 Problem Statement
 
-Build a chatbot that answers questions from your own documents instead of using only general LLM knowledge.
+Develop a Retrieval-Augmented Generation (RAG) system that answers user questions based on the story "The Thirsty Crow". The chatbot should retrieve relevant information from the story and generate accurate answers instead of relying solely on the language model's general knowledge.
 
-Tools & Technologies
-Python
-LangChain
-FAISS (Vector Database)
-Sentence Transformers
-Hugging Face
-Transformers
+Project Objective
 
-Workflow of RAG:
-User Question
-      ↓
-Convert Question to Embedding
-      ↓
-Search Similar Chunks in Vector DB
-      ↓
-Retrieve Relevant Text
-      ↓
-Send Context + Question to LLM
-      ↓
-Generate Final Answer
+Build a chatbot that: 
+1.Reads a document (The Thirsty Crow story)
+2.Splits the document into chunks
+3.Converts chunks into embeddings
+4.Stores embeddings in a vector database
+5.Retrieves relevant chunks based on user questions
+6.Generates answers using retrieved context
+
+Tools                                Technologies
+Tool	                               Purpose
+Python	                         Programming
+PyPDF2	                         PDF Reading
+Sentence Transformers	             Embedding Generation
+FAISS	Vector                         Database
+Transformers	                  LLM
+NumPy                              	Numerical Operations
 
 
-Learning Outcomes
+Project Outcomes
 
-After completing this project, you will learn:
+After completing this project, you will understand:
 
-Text chunking
+Machine Learning Concepts
+Text Data Processing
 Embeddings
-Vector databases
-Semantic search
+Similarity Search
+Vector Representation
+NLP Concepts
+Tokenization
+Chunking
+Semantic Search
+Question Answering
+RAG Concepts
+Document Loading
 Retrieval
-LLM prompting
-Basic RAG pipeline
+Vector Databases
+Context Injection
+Generation
+
+
+
+
